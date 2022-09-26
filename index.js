@@ -2,7 +2,7 @@ import * as dateTime from './modules/DateTime.js';
 import { ListPage, AddPage, ContactPage } from './modules/displayPages.js';
 import BookList from './modules/class.js';
 
-const date = document.getElementById('dateTime')
+const date = document.getElementById('dateTime');
 const inputTitle = document.getElementById('title');
 const inputAuthor = document.getElementById('author');
 

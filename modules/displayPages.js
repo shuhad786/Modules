@@ -3,7 +3,7 @@ const ContactPage = () => {
     document.getElementById('addPage').classList = 'displayNone';
     document.getElementById('listPage').classList = 'displayNone';
     document.getElementById('contactPage').classList = 'displayBlock';
-  }); 
+  });
 };
 
 const ListPage = () => {
@@ -11,7 +11,7 @@ const ListPage = () => {
     document.getElementById('addPage').classList = 'displayNone';
     document.getElementById('listPage').classList = 'displayBlock';
     document.getElementById('contactPage').classList = 'displayNone';
-  }); 
+  });
 };
 
 const AddPage = () => {
@@ -19,7 +19,7 @@ const AddPage = () => {
     document.getElementById('addPage').classList = 'displayBlock';
     document.getElementById('listPage').classList = 'displayNone';
     document.getElementById('contactPage').classList = 'displayNone';
-  }); 
+  });
 };
 
 export { ListPage, AddPage, ContactPage };

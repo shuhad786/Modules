@@ -1,0 +1,137 @@
+* {
+  font-family: 'Roboto Condensed', sans-serif;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  min-height: 100vh;
+  flex-direction: column;
+  justify-content: space-between;
+  margin: 10px 10px;
+}
+
+.displayNone {
+  display: none;
+}
+
+.displayBlock {
+  display: block;
+}
+
+#list-link:hover {
+  color: blue;
+  cursor: pointer;
+}
+
+#add-link:hover {
+  color: blue;
+  cursor: pointer;
+}
+
+#contact-link:hover {
+  color: blue;
+  cursor: pointer;
+}
+
+.listStyle {
+  list-style-type: none;
+}
+
+.listPosition {
+  list-style-position: inside;
+}
+
+.list {
+  margin-left: 34%;
+}
+
+.listItem {
+  margin-left: 5%;
+  margin-top: 1%;
+}
+
+.paddingStart {
+  padding-left: 1%;
+}
+
+.paddingEnd {
+  padding-right: 10%;
+}
+
+.alignCenter {
+  align-items: center;
+}
+
+#dateTime {
+  justify-content: end;
+}
+
+.verticalLine {
+  height: 25px;
+  width: 2px;
+  background: black;
+  margin: 0 20px 0 20px;
+  border-radius: 5px;
+}
+
+.headings {
+  font-size: 1.5rem;
+  text-align: center;
+  margin-top: 25px;
+}
+
+.dFlex {
+  display: flex;
+}
+
+.marginHauto {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.border {
+  border: black solid 3px;
+}
+
+#bookInfo {
+  width: 100%;
+}
+
+.bgGray {
+  background-color: #ccc;
+}
+
+.text-center {
+  text-align: center;
+  font-size: 1rem;
+  font-weight: bold;
+}
+
+.container {
+  padding-right: 20px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 3px;
+}
+
+#footer {
+  margin-bottom: 20px;
+}
+
+#form {
+  flex-direction: column;
+  width: 50%;
+  row-gap: 10px;
+}
+
+.button {
+  margin-left: auto;
+  padding-left: 10px;
+  padding-right: 10px;
+  box-shadow: 5px 5px #000;
+  border-radius: 5px;
+}

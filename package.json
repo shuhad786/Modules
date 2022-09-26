@@ -18,6 +18,7 @@
   },
   "homepage": "https://github.com/shuhad786/Modules#readme",
   "dependencies": {
+    "eslint": "^8.24.0",
     "luxon": "^3.0.4"
   }
 }

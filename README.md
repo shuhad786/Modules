@@ -5,16 +5,10 @@
 
 ## Built With
 
-- Html, Js, Css.
+- Html, Js(ES6), Css.
 - Linters.
 
-## Authors
-
-👤 **Gabriel Andrade**
-
-- GitHub: [@gandradep](https://github.com/gandradep)
-- Twitter: [@leribagandrade](https://twitter.com/leribagandrade)
-- LinkedIn: [Gabriel-Andrade](https://www.linkedin.com/in/gabriel-andrade-silla-turca/)
+## Author
 
 👤 **Shuhad Loofer**
 

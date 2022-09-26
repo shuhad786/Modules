@@ -1,10 +1,10 @@
-const ContactPage = () => {
-  document.getElementById('contactLink').addEventListener('click', () => {
-    document.getElementById('addPage').classList = 'displayNone';
-    document.getElementById('listPage').classList = 'displayNone';
-    document.getElementById('contactPage').classList = 'displayBlock';
-  });
-};
+// const ContactPage = () => {
+//   document.getElementById('contactLink').addEventListener('click', () => {
+//     document.getElementById('addPage').classList = 'displayNone';
+//     document.getElementById('listPage').classList = 'displayNone';
+//     document.getElementById('contactPage').classList = 'displayBlock';
+//   });
+// };
 
 const ListPage = () => {
   document.getElementById('listLink').addEventListener('click', () => {

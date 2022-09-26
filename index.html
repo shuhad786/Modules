@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300;400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="index.css">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/luxon/1.25.0/luxon.js"></script>
+  <title>Awesome Books</title>
+</head>
+<body class="dFlex">
+  <header>
+    <nav class="dFlex container border">
+      <h1 class="paddingStart">Awesome Books</h1>
+      <ul class="dFlex listStyle paddingEnd alignCenter">
+        <li id="listLink"><a id="list-link">List</a></li>
+        <li><div class="verticalLine"></div></li>
+        <li id="addLink"><a id="add-link">Add new</a></li>
+        <li><div class="verticalLine"></div></li>
+        <li id="contactLink"><a id="contact-link">Contact</a></li>
+      </ul>
+    </nav>
+    <p id="dateTime" class="dFlex"></p>
+  </header>
+
+  <section id="listPage">
+    <h1 class="headings">All awesome books</h1>
+    <article id="bookInfo" class="marginHauto border "></article>
+  </section>
+
+  <section id="addPage" class="displayNone">
+    <h2 class="headings">Add a new book</h2>
+    <form id="form" class="dFlex marginHauto">
+      <label for="title">
+      </label>
+      <input class="border" type="text" name="title" placeholder="Enter title" id="title" >
+      <label for="author">
+      </label>
+      <input class="border" type="text" name="author" placeholder="Enter author name" id="author">
+      <input class="button border" type="submit" value="Add">
+    </form>
+  </section>
+
+  <section id="contactPage" class="displayNone">
+    <h2 class="headings">CONTACT INFORMATION</h2>
+    <p class="text-center">If you have any questions reach out to us</p>
+    <ul class="listPosition dBlock list">
+      <li class="listItem">our email: email@mail.com</li>
+      <li class="listItem">our phone number: 04883762923</li>
+      <li class="listItem">our address: 32, wale drive, velocity ,8900</li>
+    </ul>
+  </section>
+
+  <footer id="footer" class="container paddingStart border">
+    Copyright...
+  </footer>
+
+  <script type="module" src="index.js"></script>
+</body>
+</html>
